@@ -6,7 +6,7 @@
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/..../.git
+git clone https://github.com/Kleishmidt/Django-Structure.git
 ```
 
 2. Make a copy of the `.env.example`,`.env.db.example`  and rename it to `.env`, `.env.db` accordingly.
