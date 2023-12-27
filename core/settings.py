@@ -1,5 +1,4 @@
 import os
-from datetime import timedelta
 
 from pathlib import Path
 from decouple import config
@@ -29,7 +28,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'corsheaders',
 
-    'apps.contact.apps.ContactConfig',
+    'apps.api.apps.ApiConfig',
 ]
 
 MIDDLEWARE = [
@@ -149,7 +148,7 @@ SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
         'Bearer': {
             'type': 'apiKey',
-            'title': 'Authorization',
+            'name': 'Authorization',
             'in': 'header',
         }
     }
